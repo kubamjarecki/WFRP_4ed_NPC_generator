@@ -1,4 +1,3 @@
-#from filestack import Client
 from classes.Talents import Talents
 from classes.Character import Character
 from classes.Name import Name
@@ -149,11 +148,5 @@ out.random_tip_of_a_day()
 out.output_to_CMD()
 #pytamy czy chce zapisać plik
 out.output_to_file(character)
-#Upload na stronę
-
-# client = Client('Amx4P48SGT0q7yGP26hkfz')
-
-# new_filelink = client.upload(filepath=out.nazwa_pliku)
-# print(new_filelink.url)
 #KONIEC
 
